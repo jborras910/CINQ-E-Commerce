@@ -1,0 +1,50 @@
+.container-fluid .cart {
+  font-weight: bold;
+  padding: 25px;
+}
+
+i {
+  margin-right: 5px;
+  font-size: 20px;
+}
+@media screen and (max-width: 1200px) {
+  .cart {
+    width: 100% !important;
+  }
+}
+.table,
+.total-card {
+  padding: 20px !important;
+  font-weight: bold !important;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);
+}
+.table tbody tr td {
+  text-align: center;
+}
+.total-card h6 {
+  font-weight: bold !important;
+}
+h3 {
+  color: #ff9292 !important;
+  font-weight: bold;
+}
+h3 .bi {
+  font-weight: bold;
+  margin-right: 5px;
+}
+.iquantity {
+  padding: 4px;
+}
+input[type="number"]::-webkit-inner-spin-button {
+  opacity: 1;
+  width: 100%;
+
+  background-color: #ff9292 !important;
+}
+.chart-box {
+  border: 2px solid red !important;
+
+  display: flex;
+
+  align-items: center;
+}

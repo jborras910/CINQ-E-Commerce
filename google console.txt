@@ -1,0 +1,3 @@
+Client ID = 403353613423-c5kliuetni2kmb1ufmg0ds85s1ltk1mt.apps.googleusercontent.com
+Client Secret = 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
+Redirect URL = http://localhost/project/LoginWithGoogle.php

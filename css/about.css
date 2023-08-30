@@ -1,0 +1,30 @@
+.about {
+  color: #ff9292 !important;
+
+  padding-top: 50px;
+  font-weight: bold !important;
+}
+.about h2,
+.about h1 {
+  font-weight: bold !important;
+}
+.about p {
+  font-size: 18px;
+}
+.about img {
+  width: 100%;
+  margin-bottom: 10px;
+
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.about-c1 {
+  padding-bottom: 50px;
+}
+@media screen and (max-width: 1200px) {
+  .about {
+    text-align: center;
+  }
+  .about img {
+    margin-bottom: 19px;
+  }
+}
